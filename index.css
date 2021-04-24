@@ -53,6 +53,42 @@ body{
   position: relative;
   color: white;
   transform: translateY(160%);
-  
 }
+.lunch :hover{
+   background-color: honeydew;
+   justify-content: space-evenly;
+}
+.lunch{
+  width: 399px;
+  height: 205px;
+  margin: 7px auto;
+  background: honeydew;
+  position: fixed;
+  right: 400px;
+  background-image: url(lunch.jpg);
+}.lunch h1{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  color: white;
+  transform: translateY(160%);
+
+}
+.dinner{
+  width: 396px;
+  height: 205px;
+  margin: 7px auto;
+  background: honeydew;
+  position: fixed;
+  right: 0;
+  background-image: url(dinner.jpg);
+}
+.dinner h1{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  color: white;
+  transform: translateY(160%);
+}
+
 
