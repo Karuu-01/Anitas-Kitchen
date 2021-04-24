@@ -1,10 +1,16 @@
 body{
-  background: #F15A29;
+  background-color: #F15A29;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+div{
+  height: 2000%;
+  margin-right: 40px;
 }
 .btn{
   background-image: url(landing.jpg);
   background-size: cover;
-  padding: 3.2em;
+  padding: 9.2em;
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
@@ -12,7 +18,7 @@ body{
   font-family: Cambria ;
 }
 .happy{
-  width: 415px;
+  width: 300px;
   height: 100px;
   margin:7px auto;
   background: azure;
@@ -24,16 +30,17 @@ body{
   font-size: 30px;
 }
 .party{
-  width: 415px;
+  width: 300px;
   height: 100px;
-  margin: 24px auto;
-  background: azure;
+  margin: 15px auto ;
+  background: #F15A29;
   position: absolute;
-  top: 600px;
+  border: 1.9px solid white;
+  top: 828px;
 }
 .party h1{
   text-align: center;
-  color: gray;
+  color: white;
   font-size: 30px;
 }
 .breakfast{
@@ -41,8 +48,8 @@ body{
   height: 205px;
   margin: 7px auto;
   background: honeydew;
-  position: fixed;
-  right: 800px;
+  position: absolute;
+  right: 860px;
   background-image: url(breakfast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,15 +63,14 @@ body{
 }
 .lunch :hover{
    background-color: honeydew;
-   justify-content: space-evenly;
 }
 .lunch{
   width: 399px;
   height: 205px;
   margin: 7px auto;
   background: honeydew;
-  position: fixed;
-  right: 400px;
+  position: absolute;
+  right: 460px;
   background-image: url(lunch.jpg);
 }.lunch h1{
   text-align: center;
@@ -75,12 +81,13 @@ body{
 
 }
 .dinner{
-  width: 396px;
+  width: 360px;
   height: 205px;
   margin: 7px auto;
+  margin-right: 0px auto;
   background: honeydew;
-  position: fixed;
-  right: 0;
+  position: absolute;
+  right: 99px;
   background-image: url(dinner.jpg);
 }
 .dinner h1{
@@ -90,5 +97,41 @@ body{
   color: white;
   transform: translateY(160%);
 }
+.fast-food{
+  width: 1468px;
+  height: 400px;
+  background: white;
+  background-image:url(fastFood1.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 947px;
+}
+.fast-food img {
+  position: relative;
+  top: 200px
+}
+.drink{
+  width: 1467px;
+  height: 800px;
+  margin: 7px auto;
+  margin-left: 1px;
+  background: white;
+  position: relative;
+  top: 608px;
+}
+.image1 {
+  position: relative;
+  border: solid whitesmoke;
+  top: 20px;
+  left: 10;
+  float: right;
+}
+.image2{
+  position: relative;
+  border: solid whitesmoke;
+  top: 20px;
+  float: right;
+} 
+
 
 
