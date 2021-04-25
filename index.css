@@ -1,6 +1,3 @@
-body{
-  background-color: #F15A29;
-}
 .btn{
   background-image: url(landing.jpg);
   background-size: cover;
@@ -253,10 +250,16 @@ body{
 .review{
   background-image: url(subscribe.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  left: 100px;
+  right: 100px;
   top: 174px;
-  width: 1500px;
+  width: 1450px;
   padding: 120px;
+}
+.subscriber img{
+  background-color: crimson;
+  position: relative;
+  top: 400px;
 }
 
