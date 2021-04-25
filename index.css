@@ -1,11 +1,12 @@
 body{
-  background-color: #F15A29;
+  background-color: black;
   margin-left: 40px;
   margin-right: 60px;
 }
 div{
   height: 2000%;
   margin-right: 40px;
+
 }
 .btn{
   background-image: url(landing.jpg);
@@ -20,7 +21,7 @@ div{
 .happy{
   width: 300px;
   height: 100px;
-  margin:7px auto;
+  margin:opx auto;
   background: azure;
   position: absolute;
 }
@@ -32,11 +33,11 @@ div{
 .party{
   width: 300px;
   height: 100px;
-  margin: 15px auto ;
+  margin: 7px auto ;
   background: #F15A29;
   position: absolute;
-  border: 1.9px solid white;
-  top: 828px;
+  border: 1.5px solid white;
+  top: 826px;
 }
 .party h1{
   text-align: center;
@@ -46,10 +47,10 @@ div{
 .breakfast{
   width: 400px;
   height: 205px;
-  margin: 7px auto;
+  margin: 0px auto;
   background: honeydew;
   position: absolute;
-  right: 860px;
+  right: 865px;
   background-image: url(breakfast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,10 +68,10 @@ div{
 .lunch{
   width: 399px;
   height: 205px;
-  margin: 7px auto;
+  margin: 0px auto;
   background: honeydew;
   position: absolute;
-  right: 460px;
+  right: 465px;
   background-image: url(lunch.jpg);
 }.lunch h1{
   text-align: center;
@@ -83,11 +84,11 @@ div{
 .dinner{
   width: 360px;
   height: 205px;
-  margin: 7px auto;
+  margin: 0px auto;
   margin-right: 0px auto;
   background: honeydew;
   position: absolute;
-  right: 99px;
+  right: 104px;
   background-image: url(dinner.jpg);
 }
 .dinner h1{
@@ -99,31 +100,25 @@ div{
 }
 .fast-food{
   width: 1468px;
-  height: 400px;
+  height: 1200px;
   background: white;
-  background-image:url(fastFood1.jpg);
-  background-repeat: no-repeat;
   position: absolute;
-  top: 947px;
-}
-.fast-food img {
-  position: relative;
-  top: 200px
+  top: 938px;
 }
 .drink{
   width: 1467px;
-  height: 800px;
+  height: 900px;
   margin: 7px auto;
   margin-left: 1px;
   background: white;
   position: relative;
-  top: 608px;
+  top: 595px;
 }
 .image1 {
   position: relative;
-  border: solid whitesmoke;
+  border: solid black;
   top: 20px;
-  left: 10;
+  left: -141px;
   float: right;
 }
 .image2{
@@ -131,7 +126,38 @@ div{
   border: solid whitesmoke;
   top: 20px;
   float: right;
+  left: -140px;
 } 
-
-
+.fast1{
+  position: relative;
+  top: 190px;
+  float: left;
+  
+}
+.fast2{
+  position: relative;
+  float: left;
+  right: 490px; 
+}
+.paragraph>p{
+  color: black;
+  font-family: initial;
+  font-size: 30px;
+  width: 600px;
+  text-align: right;
+  margin: 100px;
+  margin-top: 10px;
+}
+.paragraph>h1{
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  margin-left: 300px;
+}
+.paragraph>h2{
+  font-size: 50px;
+  font-family: cursive;
+  margin-left: 80px;
+  margin-top: 9.9px;
+}
 
