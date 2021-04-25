@@ -93,14 +93,14 @@ body{
   transform: translateY(160%);
 }
 .fast-food{
-  background:cornflowerblue;
+  background:whitesmoke;
   position: relative;
   top: 200px;
   height: 19px;
   padding: 200px;
 }
 .drink{
-  background: violet;
+  background: whitesmoke;
   position: relative;
   top: 166px;
   padding: 80px;
