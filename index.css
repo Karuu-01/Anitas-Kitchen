@@ -183,27 +183,35 @@ body{
   top: 168px;
   background-image: url(foodsBg.jpg);
    background-repeat: no-repeat;
-   background-size: cover;
-   padding: 6.3em;
-   background-image: url(foodsBg.jpg);
-   background-repeat: no-repeat;
+   padding: 4.3em;
 }
-.style{
-  padding: 3.4em;
-  background-color: white;
+.beef>img{
   position: relative;
-  left: 80px;
-  bottom: 80px;
+  left:500px;
+  bottom: 270px;
+  border: 1px solid ghostwhite;
+}
+.fast>img{
+  position: relative;
+  left:217px;
+  top: 25px;
+  border: 1px solid gainsboro;
+}
+.chicken>img{
+  position: relative;
+  bottom: 556px;
+  border: 1px solid gainsboro;
+  left: 783px;
 }
 .table>h1{
-  color: black;
+  color:gainsboro;
   text-align: center;
   position: relative;
   right: 400px;
   top: 80px;
 }
 .table>h2{
-  color: black;
+  color: gainsboro;
   position: relative;
   left: 400px;
   top: -60px;
