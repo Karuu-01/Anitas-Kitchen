@@ -1,3 +1,6 @@
+body{
+  margin-left:30px ;
+}
 .btn{
   background-image: url(landing.jpg);
   background-size: cover;
@@ -90,14 +93,14 @@
   transform: translateY(160%);
 }
 .fast-food{
-  background:whitesmoke;
+  background:cornflowerblue;
   position: relative;
   top: 200px;
   height: 19px;
   padding: 200px;
 }
 .drink{
-  background: whitesmoke;
+  background: violet;
   position: relative;
   top: 166px;
   padding: 80px;
@@ -210,7 +213,7 @@
   position: relative;
   top: 170px;
   border: 70px solid  wheat;
-  width: 1450px;
+  width: 1430px;
   height: 300px;
 }
 .customer h1{
@@ -252,9 +255,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  right: 100px;
   top: 174px;
-  width: 1450px;
+  width: 1330px;
   padding: 120px;
 }
 .subscriber{
