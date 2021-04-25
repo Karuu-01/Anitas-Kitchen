@@ -262,7 +262,7 @@
   height: 400px;
   position: relative;
   top: 175px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   justify-content: center;
   color: antiquewhite;
@@ -271,7 +271,26 @@
   position: relative;
   top: 110px;
   right: 110px;
-
+}
+#logo>h5{
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+}
+#logo>h1{
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.image>img{
+  position: relative;
+  bottom: 60px;
+  margin: 20px;
+}
+.image>h6{
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
 }
 
 .butt{
@@ -282,11 +301,5 @@
   font-size: 18px;
   height: 50px;
 }
-.buton{
-  position: relative;
 
-  border: 1px solid #F15A29;
-  font-size: 18px;
-  
-}
 
