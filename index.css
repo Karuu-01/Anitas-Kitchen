@@ -71,9 +71,6 @@
   color: white;
   transform: translateY(160%);
 }
-.lunch :hover{
-   background-color: honeydew;
-}
 .lunch{
   width: 399px;
   height: 205px;
