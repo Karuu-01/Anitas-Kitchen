@@ -211,7 +211,6 @@
   position: relative;
   top: 170px;
   border: 70px solid  white;
-  width: 1450px;
   height: 300px;
   bottom: 200px;
 }
@@ -254,9 +253,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  right: 100px;
+  right: 0px;
   top: 174px;
-  width: 1450px;
   padding: 120px;
 }
 .subscriber{
