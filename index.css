@@ -9,6 +9,24 @@
   font-family: Cambria ;
   
 }
+.icon1{
+  background-color: aliceblue;
+  height: 9px;
+  width: 40px;
+  margin: 8px;
+}
+.icon2{
+  background-color: aliceblue;
+  height: 9px;
+  width: 40px;
+  margin: 8px;
+}
+.icon3{
+  background-color: aliceblue;
+  height: 9px;
+  width: 40px;
+  margin: 8px;
+}
 .happy{
   width: 428px;
   height: 100px;
@@ -28,7 +46,7 @@
   background: #F15A29;
   position: absolute;
   border: 1.5px solid white;
-  top: 826px;
+  top: 887px;
 }
 .party h1{
   text-align: center;
@@ -182,8 +200,6 @@
    background-repeat: no-repeat;
    background-size: cover;
    padding: 6.0em;
-   background-image: url(foodsBg.jpg);
-   background-repeat: no-repeat;
 }
 .style{
   padding: 4.6em;
@@ -191,8 +207,7 @@
   align-items: center;
   position: relative;
   left: 80px;
-  bottom: 80px;
-  top: 10px;
+  top: 180px;
 }
 .customer{
   background-color: gainsboro;
@@ -327,4 +342,65 @@
   font-weight: bolder;
   text-align: center;
 }
-
+#beef{
+  width: 180px;
+  font-size: 30px;
+  position: relative;
+  left: 650px;
+  font-weight: bolder;
+  bottom: 30px;
+  color: #F15A29;
+  
+}
+#burger{
+  background-color: white;
+  width: 250px;
+  font-size: 30px;
+  position: relative;
+  left: 200px;
+  font-weight: bolder;
+  top: 50px;
+  color: #F15A29;
+  
+}
+#pizza{
+  width: 250px;
+  font-size: 30px;
+  position: relative;
+  left: 1060px;
+  font-weight: bolder;
+  bottom: 105px;
+  color: #F15A29;
+  
+}
+#food{
+  box-sizing: border-box;
+  background-color: rgb(194, 187, 187);
+  width: 1290px;
+  position: relative;
+  left: 80px;
+  height: 50px;
+  bottom: 500px;
+}
+#food>h1{
+  position: relative;
+  left: 130px;
+}
+#food>h2{
+  position: relative;
+  left: 740px;
+  font-size: 30px;
+  bottom: 60px;
+}
+#food>h3{
+  position: relative;
+  left: 1080px;
+  bottom: 120px;
+  font-size: 30px;
+}
+#food>h4{
+  position: relative;
+  left: 420px;
+  font-size: 30px;
+  bottom: 200px;
+}
