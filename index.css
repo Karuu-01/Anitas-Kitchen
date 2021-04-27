@@ -136,7 +136,7 @@
   width: 400px;
   position: relative;
   left: 230px;
-  bottom: 20px;
+  bottom: 95px;
 }
 .paragraph>h1{
   font-style: italic;
@@ -146,8 +146,8 @@
 .paragraph>h2{
   font-style: italic;
   position: relative;
-  left: 200px;
-  bottom: 10px;
+  left: 194px;
+  bottom: 90px;
   font-size: 30px;
 }
 .content>p{
@@ -286,10 +286,20 @@
 .butt{
   position: relative;
   left: 320px;
+  bottom: 90px;
   width: 200px;
   border: 1px solid #F15A29;
   font-size: 18px;
   height: 50px;
+}
+.buton{
+  position: relative;
+  bottom: 130px;
+  left: 790px;
+  width: 200px;
+  border: 1px solid #F15A29;
+  font-size: 18px;
+  height: 49px;
 }
 #email{
   height: 30px;
