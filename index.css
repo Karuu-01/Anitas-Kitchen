@@ -1,54 +1,56 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.btn{
+.btn {
   background-image: url(landing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   height: 700px;
 }
-.happy{
-  background-color: white;
+.btn > img {
+  margin-top: 100px;
+}
+.happy {
+  background-color: rgb(243, 239, 239);
   padding: 30px;
   width: 390px;
   height: 100px;
 }
-.happy h1{
-color: gray;
-text-align: center;
-font-size: 30px;
+.happy h1 {
+  color: gray;
+  text-align: center;
+  font-size: 30px;
 }
-.party{
-  background-color: #F15A29;
+.party {
+  background-color: #f15a29;
   padding: 30px;
   width: 390px;
   height: 105px;
-
 }
-.party h1{
+.party h1 {
   text-align: center;
   color: white;
   font-size: 30px;
 }
-.breakfast{
+.breakfast {
   background-image: url(breakfast.jpg);
   background-repeat: no-repeat;
   height: 205px;
   width: 390px;
   margin-top: -205px;
-  margin-left: 390px;  
+  margin-left: 390px;
   font-style: italic;
   padding: 70px;
 }
-.breakfast h1{
+.breakfast h1 {
   text-align: center;
   font-size: 30px;
   color: white;
 }
-.lunch{
+.lunch {
   margin-top: -205px;
   background-image: url(lunch.jpg);
   background-repeat: no-repeat;
@@ -58,12 +60,15 @@ font-size: 30px;
   height: 205px;
   margin-left: 740px;
 }
-.lunch h1{
+.lunch h1 {
   text-align: center;
   font-size: 30px;
   color: white;
 }
-.dinner{
+.lunch>:hover{
+  background-color: white;
+}
+.dinner {
   background-image: url(dinner.jpg);
   background-repeat: no-repeat;
   width: 338px;
@@ -73,233 +78,262 @@ font-size: 30px;
   margin-top: -205px;
   margin-left: 1090px;
 }
-.dinner h1{
+.dinner h1 {
   text-align: center;
   font-size: 30px;
   position: relative;
   color: white;
 }
-.paragraph{
-  margin-left: 7em;
+.fast-food {
+  display: flex;
+  width: 70%;
+  margin: 10% auto;
 }
-  .paragraph>p{
+.food {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 10px solid white;
+  box-shadow: 2px 2px 20px grey;
+}
+.content {
+  margin-left: 6em;
+  margin-top: 40px;
+}
+.content > p {
+  color: black;
+  font-family: initial;
+  font-size: 20px;
+  width: 300px;
+}
+.content h1 {
+  margin-top: -30px;
+}
+.content h2 {
+  width: 600px;
+  text-align: initial;
+}
+.butt {
+  width: 200px;
+  border: 1px solid #f15a29;
+  font-size: 18px;
+  height: 50px;
+}
+.drink {
+  display: flex;
+  width: 70%;
+  margin: 10% auto;
+}
+.drinks {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border: 10px solid white;
+  box-shadow: 2px 2px 20px grey;
+  margin-left: 5em;
+}
+.paragraph {
+  margin-left: 6em;
+}
+.paragraph > p {
   color: black;
   font-family: initial;
   font-size: 20px;
   margin-top: 40px;
   width: 400px;
   text-align: right;
-  }
-  .paragraph>h1{
+}
+.paragraph > h1 {
   font-style: italic;
   float: right;
-  }
-  .paragraph>h2{
+}
+.paragraph > h2 {
   font-style: italic;
   font-size: 25px;
   float: right;
-  }
-  .fast-food{
-    display: flex;
-    width: 70%;
-    margin: 10% auto;
-  }
-  .food{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    border: 10px solid white;
-    box-shadow: 2px 2px 20px grey;
-  }
-  .content{
-    margin-left: 7em;
-    margin-top: 40px;
-  }
-  .drink{
-    display: flex;
-    width: 70%;
-    margin: 10% auto;
-  }
-  .drinks{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    border: 10px solid white;
-    box-shadow: 2px 2px 20px grey;
-    margin-left: 7em;
-  }
-  .content>p{
+}
+.buton {
+  width: 200px;
+  border: 1px solid #f15a29;
+  font-size: 18px;
+  height: 49px;
+  margin-top: 20px;
+  margin-left: 11em;
+}
+.table {
+  background-image: url(foodsBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  align-items: center;
+}
+.table #items{
+  flex-wrap: wrap;
+}
+.table section{
+  display: flex;
+}
+.table div{
+  width: auto;
+  height: 300px;
+}
+.table .details{
+  text-align: center;
+}
+.table #delicacy{
+  position: absolute;
+  right: 181px;
+  padding-top: 18px;
+  background-color: gray;
   color: black;
-  font-family: initial;
+  font-size: 18px;
+  text-align: center;
+  padding-right: 50px;
+  top: 95px;
+  height: 56px;
+}
+.table p{
+  display: inline;
+  margin-right: 104px;
+  margin-left: 104px;
+}
+.table span{
+  background-color: white;
+  padding-top: 18px;
+  font-size: 18px;
+  position: absolute;
+  top: 94px;
+  left: 190px;
+  padding-left: 82px;
+  color: #f15a29;
+  padding-right: 82px;
+  padding-bottom:18px;
+}
+.table #images{
+  position: absolute;
+    background-color: white;
+    color: white;
+    height: 63%;
+    width: 74%;
+    margin: 151px;
+    margin-left: 190px;
+    padding: 41px;
+}
+.table .BB{
+  position: absolute;
+  top: 133%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  color: #f15a29;
+}
+.table .CB{
+  position: absolute;
+  top: 133%;
+  left: 18%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  color: #f15a29;
+}
+.table .CP{
+  position: absolute;
+  top: 133%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  color: #f15a29;
+}
+.customer{
+  display: flex;
+  width: 70%;
+  margin: 10% auto;
+  border: 10px solid white;
+  box-shadow: 2px 2px 40px grey;
+  border-collapse: separate;
+}
+#stuff{
+  display: block;
+  height: 200px;
+}
+#stuff h1{
+  color: #f15a29;
+}
+#stuff h2{
+  color: rgb(80, 77, 77);
+  margin-left: 80px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin-left: 3em;
+}
+.menu>p{
+  width: 500px;
+  font-size: 16px;
+  font-weight: 200px;
+}
+.menu>h1{
+  color: #f15a29;
+  margin-bottom: 10px;
+}
+.review {
+  background-image: url(subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0px;
+  top: 174px;
+  padding: 120px;
+}
+.subscriber {
+  background-color: #f15a29;
+  height: 400px;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+#logo > img {
+  margin-right: 170px;
+  margin-bottom: -145px;
+}
+#logo > h5 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+#logo > h1 {
+  margin-left: 60px;
+  margin-top: 90px;
+}
+.image > img {
+  margin: 20px;
+}
+.image > h6 {
   font-size: 20px;
-  width: 300px;
-  
-  }
-  .content h1{
-  margin-top: -30px;
-  }
-  .content h2{
-  width: 600px;
-  text-align: initial;
-  }
-  .table{
-    top: 245px;
-    background-image: url(foodsBg.jpg);
-    background-repeat: no-repeat;
-    }
-    .style{
-    background-color: white;
-    align-items: center;
-    }
-    .customer{
-    background-color: gainsboro;
-    border: 70px solid white;
-    height: 400px;
-    bottom: 200px;
-    }
-    .customer h1{
-    color:#F15A29;
-    }
-    .customer h2{
-    color: dimgrey;
-    }
-    .customer p{
-    width: 300px;
-    font-size: 20px;
-    }
-    .menu h1{
-    margin-bottom:-200px;
-    text-align: right;
-    transform: translate(-400px);
-    color: #F15A29;
-    }
-    #menu p{
-    margin-top: 0px;
-    margin-left: 800px;
-    width: 200px;
-    }
-    .review{
-    background-image: url(subscribe.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 0px;
-    top: 174px;
-    padding: 120px;
-    }
-    .subscriber{
-    background-color: #F15A29;
-    height: 400px;
-    font-size: 25px;
-    text-align: center;
-    justify-content: center;
-    color: antiquewhite;
-    }
-    #logo>img{
-    margin-right: 170px;
-    margin-bottom: -145px;
-    }
-    #logo>h5{
-    font-size: 30px;
-    margin-top: 40px;
-    }
-    #logo>h1{
-    margin-left: 60px;
-    margin-top: 90px;
-    }
-    .image>img{
-    margin: 20px;
-    }
-    .image>h6{
-    font-size: 20px;
-    }
-    
-    .butt{
-    left: 320px;
-    bottom: 90px;
-    width: 200px;
-    border: 1px solid #F15A29;
-    font-size: 18px;
-    height: 50px;
-    }
-    .buton{
-    bottom: 130px;
-    left: 790px;
-    width: 200px;
-    border: 1px solid #F15A29;
-    font-size: 18px;
-    height: 49px;
-    }
-    #email{
-    height: 45px;
-    width: 330px;
-    background-color: none;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 265px;
-    }
-    .sub{
-    height: 45px;
-    width: 200px;
-    background-color: #F15A29;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: aliceblue;
-    margin-left: 130px;
-    }
-    .review>p{
-    font-size: 30px;
-    color: aliceblue;
-    font-weight: bolder;
-    text-align: center;
-    margin: 40px;
-    }
-    #beef{
-    width: 180px;
-    font-size: 30px;
-    left: 650px;
-    font-weight: bolder;
-    bottom: 30px;
-    color: #F15A29;
-    }
-    #burger{
-    background-color: white;
-    width: 250px;
-    font-size: 30px;
-    left: 200px;
-    font-weight: bolder;
-    top: 50px;
-    color: #F15A29;
-    }
-    #pizza{
-    width: 250px;
-    font-size: 30px;
-    left: 1060px;
-    font-weight: bolder;
-    bottom: 105px;
-    color: #F15A29;
-    }
-    #food{
-    box-sizing: border-box;
-    background-color: rgb(194, 187, 187);
-    width: 1290px;
-  
-    left: 80px;
-    height: 50px;
-    bottom: 500px;
-    }
-    #food>h1{
-    left: 130px;
-    }
-    #food>h2{
-    font-size: 30px;
-    }
-    #food>h3{
-    font-size: 30px;
-    }
-    #food>h4{
-    font-size: 30px;
-    bottom: 200px;
-    }
-    
-    
+}
+#email {
+  height: 45px;
+  width: 330px;
+  background-color: none;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 265px;
+}
+.sub {
+  height: 45px;
+  width: 200px;
+  background-color: #f15a29;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  margin-left: 130px;
+}
+.review > p {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: center;
+  margin: 40px;
+}
